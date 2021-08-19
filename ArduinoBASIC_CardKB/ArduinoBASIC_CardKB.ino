@@ -36,7 +36,7 @@ uint8_t mem[MEMORY_SIZE];
 #define TOKEN_BUF_SIZE    64
 uint8_t tokenBuf[TOKEN_BUF_SIZE];
 
-const char welcomeStr[] PROGMEM = "Arduino BASIC";
+const char welcomeStr[] PROGMEM = "ChipOS v0.1";
 uint8_t autorun = 0;
 
 void setup() {
