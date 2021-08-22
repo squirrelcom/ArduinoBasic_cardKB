@@ -1,14 +1,3 @@
-/*
-    @file ArduinoBASIC_CardKB.ino
-    @brief Modified Arduino Basic to work with cardKeyboard and OLED 128x32.
-    Reference source:https://github.com/robinhedwards/ArduinoBASIC
-
-    @author Kei Takagi
-    @date 2020.03.06
-
-    Copyright (c) 2019 Kei Takagi
-*/
-
 #include <font.h>
 #include <SSD1306ASCII_I2C.h>
 
@@ -17,14 +6,6 @@
 #include "basic.h"
 #include "host.h"
 #include "cardkb.h"
-
-// Define in host.h if using an external EEPROM e.g. 24LC256
-// Should be connected to the I2C pins
-// SDA -> Analog Pin 4, SCL -> Analog Pin 5
-// See e.g. http://www.hobbytronics.co.uk/arduino-external-eeprom
-
-// If using an external EEPROM, you'll also have to initialise it by
-// running once with the appropriate lines enabled in setup() - see below
 
 // buzzer pin, 0 = disabled/not present
 #define BUZZER_PIN    0
