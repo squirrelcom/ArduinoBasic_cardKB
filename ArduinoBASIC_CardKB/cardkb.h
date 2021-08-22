@@ -1,12 +1,3 @@
-/*
-    @file cardkb.h
-    @brief cardKeyboard
-
-    @author Kei Takagi
-    @date 2020.03.06
-
-    Copyright (c) 2019 Kei Takagi
-*/
 
 #ifndef _CARDKB_H
 #define _CARDKB_H
