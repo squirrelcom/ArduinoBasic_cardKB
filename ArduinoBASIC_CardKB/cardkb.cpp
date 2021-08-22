@@ -1,13 +1,3 @@
-/*
-    @file cardkb.cpp
-    @brief cardKeyboard
-
-    @author Kei Takagi
-    @date 2020.03.06
-
-    Copyright (c) 2019 Kei Takagi
-*/
-
 #include <WS2812.h>
 #include "cardkb.h"
 
