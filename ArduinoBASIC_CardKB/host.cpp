@@ -1,13 +1,3 @@
-/*
-    @file host.cpp
-    @brief Modified Arduino Basic to work with cardKeyboard and I2C OLED 128x32 or 128x64.
-    Reference source:https://github.com/robinhedwards/ArduinoBASIC
-
-    @author Kei Takagi
-    @date 2020.05.02
-
-    Copyright (c) 2019 -2020 Kei Takagi
-*/
 
 #include <SSD1306ASCII_I2C.h>
 #include <EEPROM.h>
