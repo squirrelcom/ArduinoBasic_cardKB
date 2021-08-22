@@ -1,14 +1,3 @@
-/*
-    @file host.h
-    @brief Modified Arduino Basic to work with cardKeyboard and I2C OLED 128x32 or 128x64.
-    Reference source:https://github.com/robinhedwards/ArduinoBASIC
-
-    @author Kei Takagi
-    @date 2020.03.06
-
-    Copyright (c) 2019 Kei Takagi
-*/
-
 #ifndef _HOST_H
 #define _HOST_H
 
